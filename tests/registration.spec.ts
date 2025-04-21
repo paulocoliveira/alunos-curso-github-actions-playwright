@@ -8,7 +8,7 @@ test.describe('teste básico', () => {
         const inputFirstName = page.locator('#input-firstname')
         await inputFirstName.fill('Laís')
     
-        await page.fill('id=input-lastname', 'Souza')
+        await page.fill('id=input-lastname', 'Oliveira')
         await page.fill('id=input-email', faker.internet.email())
         await page.fill('id=input-telephone', '888777666')
         await page.fill('id=input-password', '123456')
